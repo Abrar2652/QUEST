@@ -25,8 +25,6 @@ QUEST/
 ## Quick start
 
 ```bash
-cd /nas/home/jahin/QUEST
-
 # Run QUEST on NL27k (GPU 0)
 PYTORCH_NVML_BASED_CUDA_CHECK=0 CUDA_VISIBLE_DEVICES=0 PYTHONUNBUFFERED=1 \
     .venv/bin/python quest_run.py --gpu 0 \
